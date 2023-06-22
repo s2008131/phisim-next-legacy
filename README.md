@@ -1,3 +1,5 @@
+# 该仓库已停止更新，Phigros 模拟器 `[Next]` 将在迁移到 TypeScript 后开启新仓库。
+
 ## 分支简介
 
 基于 [@lchzh3473/sim-phi](https://github.com/lchzh3473/sim-phi)，用 js/canvas 还原 Phi&#103;ros 游戏画面，并且使用最新的 UI，属于个人兴趣项目，仅用于学习和测试，侵删。
