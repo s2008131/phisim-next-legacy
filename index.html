@@ -8,13 +8,13 @@
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
     />
     <title>Phigros 模拟器 [Next]</title>
-    <link rel="manifest" href="../static/manifest.json" />
-    <link rel="stylesheet" href="../static/utils/style.css?v=0x1D" />
-    <link rel="stylesheet" href="../static/style.css?v=0x1D" />
+    <link rel="manifest" href="./static/manifest.json" />
+    <link rel="stylesheet" href="./static/utils/style.css?v=0x1D" />
+    <link rel="stylesheet" href="./static/style.css?v=0x1D" />
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("../static/service-worker.js")
+          .register("./static/service-worker.js")
           .then(() => {
             console.log("Service Worker Registered");
           });
@@ -64,8 +64,8 @@
         toggleTab(1); 
       }, 1000);// 1:files 2:settings 3:about
     </script>
-    <script src="../static/utils/main.js?v=0x1D"></script>
-    <script type="module" src="../static/script.js?v=0x1D"></script>
+    <script src="./static/utils/main.js?v=0x1D"></script>
+    <script type="module" src="./static/script.js?v=0x1D"></script>
   </head>
 
   <body>
